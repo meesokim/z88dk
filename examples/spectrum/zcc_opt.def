@@ -1,0 +1,29 @@
+
+IF NEED_name
+	defm	"Smiley Smiley (picture)"
+	defc DEFINED_NEED_name = 1
+ENDIF
+
+
+IF !DEFINED_nostreams
+	defc	DEFINED_nostreams = 1
+	defc nostreams = 0
+ENDIF
+
+
+IF NEED_icon
+	defc DEFINED_NEED_icon = 1
+
+	defb	60,66,165,165,129,165,90,60
+ENDIF
+
+IF !DEFINED_ANSIstdio
+	defc	DEFINED_ANSIstdio = 1
+	defc ANSIstdio = 0
+ENDIF
+
+
+IF !NEED_floatpack
+	DEFINE	NEED_floatpack
+ENDIF
+

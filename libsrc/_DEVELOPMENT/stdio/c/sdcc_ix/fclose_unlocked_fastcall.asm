@@ -1,0 +1,18 @@
+
+; int fclose_unlocked_fastcall(FILE *stream)
+
+SECTION code_stdio
+
+PUBLIC _fclose_unlocked_fastcall
+
+EXTERN asm_fclose_unlocked
+
+_fclose_unlocked_fastcall:
+
+   push hl
+   ex (sp),ix
+   
+   call asm_fclose_unlocked
+   
+   pop ix
+   ret

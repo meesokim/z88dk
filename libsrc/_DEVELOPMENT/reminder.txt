@@ -1,0 +1,54 @@
+
+TODO:
+
+[
+
+* text mode open on memstreams
+
+* do we really need two sets of input/output primitives for stdio
+
+* known issue: input terminals immediately repeat key on caps/lower transition
+
+* known issue: fzx justify functions need to distribute remainder spacing evenly
+
+* known issue: in password mode output terminals display '*' when enter typed
+
+* known issue: fzx output terminal scroll limit seems off
+
+* zx scroll reexamined
+
+* change 4x8 font to use only nibbles in font definitions
+
+
+MEDIUM TERM:
+
+* add library options to opt in/out of ioctls
+
+* make some library options compile time rather than library build time
+
+* low level fzx print functions with embedded sequences
+
+
+LONG TERM:
+
+* all struct offsets in asm code should be defined in a DEFVARS block
+
+
+
+LONG TERM TENTATIVE:
+
+* pattern filler
+  add shaped fill
+
+* output terminal
+  add inverse, underline, italic, xor, or
+
+
+]
+
+* target open
+
+* check constraints on code location in some stdio state machines
+
+* create library functions to load from fixed offset from ix
+should save dozens of bytes

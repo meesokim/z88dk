@@ -1,0 +1,48 @@
+
+IF !DEFINED_ANSIstdio
+	defc	DEFINED_ANSIstdio = 1
+	defc ANSIstdio = 0
+ENDIF
+
+
+IF !DEFINED_ANSIstdio
+	defc	DEFINED_ANSIstdio = 1
+	defc ANSIstdio = 0
+ENDIF
+
+
+IF !DEFINED_myzorg
+	DEFINE DEFINED_myzorg
+	defc myzorg = 27000
+ENDIF
+IF !NEED_floatpack
+	DEFINE	NEED_floatpack
+ENDIF
+
+
+IF !DEFINED_complexstdio
+	defc	DEFINED_complexstdio = 1
+	defc complexstdio = 0
+ENDIF
+
+
+IF !DEFINED_ANSIstdio
+	defc	DEFINED_ANSIstdio = 1
+	defc ANSIstdio = 0
+ENDIF
+
+
+IF !DEFINED_myzorg
+	DEFINE DEFINED_myzorg
+	defc myzorg = 27000
+ENDIF
+IF !NEED_floatpack
+	DEFINE	NEED_floatpack
+ENDIF
+
+
+IF !DEFINED_complexstdio
+	defc	DEFINED_complexstdio = 1
+	defc complexstdio = 0
+ENDIF
+

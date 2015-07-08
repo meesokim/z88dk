@@ -1,0 +1,17 @@
+
+IF !DEFINED_ANSIstdio
+	defc	DEFINED_ANSIstdio = 1
+	defc ANSIstdio = 0
+ENDIF
+
+
+IF NEED_name
+	defm	"GrayMandelbrot"
+	defc DEFINED_NEED_name = 1
+ENDIF
+
+
+IF !NEED_floatpack
+	DEFINE	NEED_floatpack
+ENDIF
+
